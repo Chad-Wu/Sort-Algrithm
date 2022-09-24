@@ -31,16 +31,16 @@ void QuickSort(int a[], int l, int r) {
 	int range = r - l + 1;
 	if (range > CutOff){
 	    int q = (l + r)/2;
-    	int i = l;
-    	swap(a, q, r);
-    	for (int j = l; j < r; ++j) {
+    	    int i = l;
+    	    swap(a, q, r);
+    	    for (int j = l; j < r; ++j) {
     		if (a[j] < a[r]) {
     			swap(a, i++, j);
     		}
-    	}
-    	swap(a, i, r); 
-    	QuickSort(a, l, i - 1);
-    	QuickSort(a, i + 1, r);
+    	    }
+    	    swap(a, i, r); 
+    	    QuickSort(a, l, i - 1);
+    	    QuickSort(a, i + 1, r);
 	}
 	else InsertSort(a, l, r);
 }
