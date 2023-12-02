@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-02T09:07:38.894Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="QqCjKaP0lI9qk5cQBHtl" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-02T13:27:37.266Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="Jd74F-6Tbx8fp_512Ba6" version="22.1.5" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1042" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -13,19 +13,19 @@
         <mxCell id="3eUIlnqiGvhLUTWXQRK9-9" value="fin_product" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="90" width="100" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="3eUIlnqiGvhLUTWXQRK9-10" value="&lt;u&gt;purchase_id&lt;/u&gt;&lt;br&gt;prod_id" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="3eUIlnqiGvhLUTWXQRK9-9">
+        <mxCell id="3eUIlnqiGvhLUTWXQRK9-10" value="&lt;u&gt;purchase_id&lt;/u&gt;&lt;br&gt;prod_id&lt;br&gt;state&lt;br&gt;buy_time" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="3eUIlnqiGvhLUTWXQRK9-9">
           <mxGeometry y="50" width="100" height="90" as="geometry" />
         </mxCell>
         <mxCell id="3eUIlnqiGvhLUTWXQRK9-11" value="Ins_product" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="250" width="100" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="3eUIlnqiGvhLUTWXQRK9-12" value="&lt;u&gt;purchase_id&lt;/u&gt;&lt;br&gt;ins_id" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="3eUIlnqiGvhLUTWXQRK9-11">
+        <mxCell id="3eUIlnqiGvhLUTWXQRK9-12" value="&lt;u&gt;purchase_id&lt;/u&gt;&lt;br&gt;ins_id&lt;br&gt;state&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;buy_time" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="3eUIlnqiGvhLUTWXQRK9-11">
           <mxGeometry y="50" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="3eUIlnqiGvhLUTWXQRK9-13" value="fund_product" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="430" width="100" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="3eUIlnqiGvhLUTWXQRK9-14" value="&lt;u&gt;purchase_id&lt;/u&gt;&lt;br&gt;fund_id" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="3eUIlnqiGvhLUTWXQRK9-13">
+        <mxCell id="3eUIlnqiGvhLUTWXQRK9-14" value="&lt;u&gt;purchase_id&lt;/u&gt;&lt;br&gt;fund_id&lt;br&gt;state&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;buy_time" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="3eUIlnqiGvhLUTWXQRK9-13">
           <mxGeometry y="50" width="100" height="110" as="geometry" />
         </mxCell>
         <mxCell id="3eUIlnqiGvhLUTWXQRK9-15" value="Card" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
